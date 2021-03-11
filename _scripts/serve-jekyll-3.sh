@@ -1,0 +1,1 @@
+BUNDLE_GEMFILE=Gemfile.jekyll3 bundle exec jekyll serve

@@ -1,0 +1,2 @@
+BUNDLE_GEMFILE=Gemfile bundle install
+BUNDLE_GEMFILE=Gemfile.jekyll3 bundle install

@@ -1,0 +1,36 @@
+<p>Site data:</p>
+<pre>
+    <code>tz: {{ site.timezone }}</code>
+</pre>
+
+<p>A Generic Date:</p>
+<pre>
+    <code>raw: {{ page.generic_date }}
+formatted: {{ page.generic_date | date: "%a, %b %d, %Y, %r" }}
+date_to_long_string: {{ page.generic_date | date_to_long_string }}
+timezone: {{ page.generic_date | date: "%Z" }}</code>
+</pre>
+
+<p>A Generic DateTime:</p>
+<pre>
+    <code>raw: {{ page.generic_datetime }}
+formatted: {{ page.generic_datetime | date: "%a, %b %d, %Y, %r" }}
+date_to_long_string: {{ page.generic_datetime | date_to_long_string }}
+timezone: {{ page.generic_datetime | date: "%Z" }}</code>
+</pre>
+
+<p>A NZ DateTime:</p>
+<pre>
+    <code>raw: {{ page.nz_datetime }}
+formatted: {{ page.nz_datetime | date: "%a, %b %d, %Y, %r" }}
+date_to_long_string: {{ page.nz_datetime | date_to_long_string }}
+timezone: {{ page.nz_datetime | date: "%Z" }}</code>
+</pre>
+
+<p>A Europe DateTime:</p>
+<pre>
+    <code>raw: {{ page.europe_datetime }}
+formatted: {{ page.europe_datetime | date: "%a, %b %d, %Y, %r" }}
+date_to_long_string: {{ page.europe_datetime | date_to_long_string }}
+timezone: {{ page.europe_datetime | date: "%Z" }}</code>
+</pre>

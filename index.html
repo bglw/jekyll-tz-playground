@@ -1,0 +1,22 @@
+---
+layout: default
+generic_date: 2024-05-31
+generic_datetime: 2024-05-31 00:00:00
+nz_datetime: 2024-05-31 00:00:00 +1300
+europe_datetime: 2024-05-31 00:00:00 +0100
+---
+
+<h1>Testing timezones and what-not</h1>
+
+<hr>
+<h2>Just built 👇</h2>
+<hr>
+
+{% include dates.html %}
+
+<hr>
+<h2>Prebuilt on someone's machine 👇</h2>
+<p>(<code>bash scripts/build-into-includes.sh</code> locally)</p>
+<hr>
+
+{% include cached.html %}
